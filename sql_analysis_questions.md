@@ -38,7 +38,7 @@
 
 **3. Find customers who live in Delhi,Mumbai or jaipur.**
 
-**Query**: select \* from customers where annualincome between 300000 and 700000;
+**Query**: select \* from customers where city in ('delhi','mumbai','jaipur');
 
 
 

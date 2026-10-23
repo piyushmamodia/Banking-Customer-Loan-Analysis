@@ -16,7 +16,7 @@ Query: select customerid,customername,annualincome from customers where annualin
 
 
 3. Find customers who live in Delhi,Mumbai or jaipur.
-Query: select * from customers where annualincome between 300000 and 700000;
+Query: select * from customers where city in ('delhi','mumbai','jaipur');
 
 
 4. Find customers whose credit score is above 700 and annual income is greater than 500000.

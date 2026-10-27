@@ -39,7 +39,6 @@ Query: select loanstatus,count(*) as total_loans from loans group by loanstatus;
 Query: select loantype,sum(loanamount)as total_loan_amount ,count(*) as total_loans from loans group by loantype;
 
 
-
 8. Find the average Interest rate for each loan type.
 Query: select loantype,round(avg(interestrate),2) as avg_interest_rate from loans group by loantype;
 

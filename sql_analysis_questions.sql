@@ -7,7 +7,7 @@
  
  . BASIC SQL (SELECT,WHERE,BETWEEN,IN,AND,ORDERBY,DESC,LIMIT)
 
-Find customers whose Creditscore is below 700.
+1. Find customers whose Creditscore is below 700.
 Query: SELECT CUSTOMERID,CUSTOMERNAME,CREDITSCORE FROM CUSTOMERS WHERE CREDITSCORE<700;
 
 
